@@ -1,0 +1,42 @@
+
+
+
+.container{
+  display: flex;
+  width: 600px;
+  height: 800px;
+  background-color: #e5eaee;
+  margin: auto;
+}
+
+.sideBar{
+    background-color: #233A5F;
+    width: 200px;
+    height: 800px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 600px;
+    margin-left: 10px;
+    padding-top: 20px;
+    
+}
+
+.tittle{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.imagem{
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30px;
+   
+}
+p{
+    font-size: 10px;
+}
