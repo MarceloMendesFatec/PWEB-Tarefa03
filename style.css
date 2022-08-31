@@ -3,22 +3,69 @@
 
 .container{
   display: flex;
-  width: 600px;
+  width: 60%;
   height: 800px;
   background-color: #e5eaee;
   margin: auto;
 }
 
+
+.main{
+    
+    height: 900px;
+    width: 100%;
+}
+.contentMain{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 70%;
+    color: #233A5F;
+    
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 70%;
+    color: #233A5F;
+}
+
+.additional{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 70%;
+    color: #233A5F;
+}
+
+.line{
+    background: #233A5F;
+    border-radius: 4px;
+    width: 100px;
+    height: 5px;
+}
 .sideBar{
     background-color: #233A5F;
     width: 200px;
-    height: 800px;
+    height: 100%;
 }
 .content{
     display: flex;
     flex-direction: column;
     width: 180px;
-    height: 600px;
+    height: 100%;
     margin-left: 10px;
     padding-top: 20px;
     
@@ -27,7 +74,8 @@
 .tittle{
     margin-top: 30px;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
+    
     
 }
 
@@ -35,8 +83,77 @@
     border-radius: 50%;
     display: flex;
     margin-left: 30px;
+    
+}
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    height: 20%;
+
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    width: 170px;
+    height: 30px;
+    gap: 10px;
+    font-size: 15px;
+    line-height: 30px;    
+    
+}
+
+.skills{
+    width: 100%;
+    height: 20%;
+    color: #E5E5E5;
+   font-size: 25px;
    
 }
+.college{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    color: #E5E5E5;
+    font-size: 25px;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    color: #E5E5E5;
+    font-size: 25px;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
 p{
-    font-size: 10px;
+    font-size: 12px;
+    margin: 5px;
+}
+li{
+    font-size: 12px;
+}
+
+a{
+    color: #E5E5E5;
+    font-size: 15px;
+    
+}
+h1{
+    gap: 10px;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
